@@ -24,10 +24,12 @@ jobs:
     - name: Run Instrumented Tests on Emulator (API 35)
       uses: reactivecircus/android-emulator-runner@v2
       with:
-        api-level: 34
+        api-level: 35
         target: google_apis
         arch: x86_64
         profile: pixel_4
         ram-size: 4096M
         disk-size: 6000M
+        disable-animations: true
+        wait-for-emulator: true
         script: ./gradlew connectedDebugAndroidTest
