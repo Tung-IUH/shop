@@ -26,6 +26,6 @@ jobs:
       with:
         api-level: 31
         arch: x86_64
-
+        script: ./gradlew connectedDebugAndroidTest
     - name: Run Instrumented Tests
       run: ./gradlew connectedDebugAndroidTest
