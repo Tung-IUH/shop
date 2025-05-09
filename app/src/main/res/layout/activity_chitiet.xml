@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <ImageView
+        android:id="@+id/imgSanPham"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:layout_gravity="center"
+        android:src="@drawable/ic_launcher_background" />
+
+    <TextView
+        android:id="@+id/txtTen"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Tên sản phẩm"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:paddingTop="16dp"
+        android:gravity="center" />
+
+    <TextView
+        android:id="@+id/txtGia"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Giá: 0đ"
+        android:textSize="18sp"
+        android:gravity="center" />
+
+    <TextView
+        android:id="@+id/txtMoTa"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Mô tả sản phẩm"
+        android:textSize="16sp"
+        android:layout_marginTop="16dp" />
+
+    <Button
+        android:id="@+id/btnMua"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Mua sản phẩm"
+        android:textSize="16sp"
+        android:layout_marginTop="16dp"
+        android:backgroundTint="#4CAF50" />
+</LinearLayout>

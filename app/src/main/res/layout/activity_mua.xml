@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Thông tin người mua"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:gravity="center"
+        android:paddingBottom="16dp" />
+
+    <EditText
+        android:id="@+id/edtTen"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Tên người mua"
+        android:inputType="textPersonName"
+        android:padding="12dp"
+        android:layout_marginBottom="8dp" />
+
+    <EditText
+        android:id="@+id/edtSdt"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Số điện thoại"
+        android:inputType="phone"
+        android:padding="12dp"
+        android:layout_marginBottom="8dp" />
+
+    <EditText
+        android:id="@+id/edtDiachi"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Địa chỉ"
+        android:inputType="textPostalAddress"
+        android:padding="12dp"
+        android:layout_marginBottom="16dp" />
+
+    <Button
+        android:id="@+id/btnGoiHoaDon"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Gửi hóa đơn"
+        android:textSize="16sp"
+        android:backgroundTint="#4CAF50"/>
+
+</LinearLayout>

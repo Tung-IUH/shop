@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:padding="24dp"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:id="@+id/txtTenKhach"
+            android:text="Tên khách hàng: "
+            android:textSize="18sp"
+            android:layout_marginBottom="12dp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/txtDiaChi"
+            android:text="Địa chỉ: "
+            android:textSize="18sp"
+            android:layout_marginBottom="12dp" />
+
+        <TextView
+            android:id="@+id/txtTenSP"
+            android:text="Sản phẩm: "
+            android:textSize="18sp"
+            android:layout_marginBottom="12dp" />
+
+        <TextView
+            android:id="@+id/txtGia"
+            android:text="Giá: "
+            android:textSize="18sp"
+            android:layout_marginBottom="12dp" />
+
+        <TextView
+            android:id="@+id/txtTongTien"
+            android:text="Tổng tiền: "
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:layout_marginTop="16dp" />
+
+    </LinearLayout>
+</ScrollView>
