@@ -18,9 +18,11 @@ jobs:
     - name: Build & Unit Tests
       run: ./gradlew testDebugUnitTest
 
-    - name: Run Instrumented Tests
+    - name: Start Emulator
       uses: reactivecircus/android-emulator-runner@v2
       with:
         api-level: 31
         arch: x86_64
+
+    - name: Run Instrumented Tests
       run: ./gradlew connectedDebugAndroidTest
