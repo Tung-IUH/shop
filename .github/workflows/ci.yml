@@ -19,7 +19,7 @@ jobs:
       run: chmod +x ./gradlew
 
     - name: Build & Unit Tests
-      run: ./gradlew testDebugUnitTest
+      run: ./gradlew testDebugUnitTest --warning-mode all --stacktrace
 
     - name: Start Emulator
       uses: reactivecircus/android-emulator-runner@v2
